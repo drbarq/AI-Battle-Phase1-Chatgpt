@@ -23,3 +23,13 @@ Preview the production build locally:
 ```bash
 npm run preview
 ```
+
+## Vercel Analytics
+
+To enable Vercel Analytics for tracking page views and visitors:
+
+```bash
+npm install @vercel/analytics
+```
+
+The `<Analytics />` component is already added to `src/index.jsx`. Deploy your app to Vercel and visit your site to start collecting analytics data.
