@@ -1,0 +1,25 @@
+.intro-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #1a1a1a, #333);
+}
+.intro-screen h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.intro-screen .start-button,
+.intro-screen .settings-button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+}
+.intro-screen .settings-button {
+  background-color: #2196f3;
+}

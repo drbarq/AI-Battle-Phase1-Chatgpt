@@ -1,0 +1,65 @@
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+.score {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  font-size: 1rem;
+}
+.settings-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.game-grid {
+  display: grid;
+  width: 90vmin;
+  height: 102vmin;
+  max-width: 90vw;
+  max-height: 102vh;
+  background-color: #111;
+}
+.cell {
+  border: 0.5px solid #222;
+}
+.snake {
+  background-color: #4caf50;
+}
+.head {
+  background-color: #8bc34a;
+}
+.food {
+  background-color: #f44336;
+}
+.game-over {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.game-over button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+}
